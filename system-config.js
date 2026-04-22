@@ -11,12 +11,12 @@
 
 // **Commit Message:** `feat: define system configuration and stability rules`
 
-const BASE_URL = "https://api.nexus-wfm.com";
-let activeAgentCount = 0;
+// const BASE_URL = "https://api.nexus-wfm.com";
+// let activeAgentCount = 0;
 
-let isMaintenanceMode = false;
-var legacyDepartmentCode = 101;
-legacyDepartmentCode = 102;
+// let isMaintenanceMode = false;
+// var legacyDepartmentCode = 101;
+// legacyDepartmentCode = 102;
 
-let systemStatus =
-  "NEXUS CONFIG: " + BASE_URL + " | Status: " + isMaintenanceMode;
+// let systemStatus =
+//   "NEXUS CONFIG: " + BASE_URL + " | Status: " + isMaintenanceMode;
