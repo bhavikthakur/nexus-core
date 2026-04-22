@@ -14,11 +14,11 @@
 // - **The Verification:** Log the `typeof` for each variable to the console to ensure the engine has categorized them correctly in the Stack.
 // - **The Output:** Use basic string concatenation to print a welcome message (e.g., *"System Initialized for Agent: [Name] (ID: [ID])"*).
 
-// const agentName = "Bhavik";
-// const agentID = 1;
-// let isShiftActive = false;
-// let shiftPerformance = null;
-// let nextReviewDate;
+const agentName = "Bhavik";
+const agentID = 1;
+let isShiftActive = false;
+let shiftPerformance = null;
+let nextReviewDate;
 
 // console.log(typeof agentName);
 // console.log(typeof agentID);

@@ -11,17 +11,17 @@
 
 // **Commit Message:** `feat: implement interactive manual override using BOM dialogs`
 
-const agentName = prompt("Enter the agent name");
-const isPresent = confirm("If " + agentName + " is present for the shift?");
-let shiftStatus = "Offline";
+// const agentName = prompt("Enter the agent name");
+// const isPresent = confirm("If " + agentName + " is present for the shift?");
+// let shiftStatus = "Offline";
 
-if (isPresent) {
-  shiftStatus = "Active";
-  alert("Authentication Successful for " + agentName + "!");
-} else {
-  alert(
-    "Authentication unsuccessful for " +
-      agentName +
-      ". Be available at desk and try again!",
-  );
-}
+// if (isPresent) {
+//   shiftStatus = "Active";
+//   alert("Authentication Successful for " + agentName + "!");
+// } else {
+//   alert(
+//     "Authentication unsuccessful for " +
+//       agentName +
+//       ". Be available at desk and try again!",
+//   );
+// }
