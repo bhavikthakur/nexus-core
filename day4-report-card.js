@@ -5,4 +5,3 @@ Base Rate: ${baseHourlyRate}/hr
 Gross Pay : ${shiftHours * baseHourlyRate}
 ==========================
 `;
-console.log(agentReportCard);
