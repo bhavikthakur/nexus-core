@@ -1,7 +1,10 @@
-agentName = "Bhavik";
-agentId = 8;
-isShiftActive = false;
-unassignedData = null;
+let agentName = "Bhavik";
+const agentId = 8;
+let isShiftActive = false;
+let unassignedData = null;
+let shiftHours = 8;
+let baseHourlyRate = 25;
+
 // console.log(
 //   "Agent name: " + agentName + " | agentName type: " + typeof agentName,
 // );
@@ -18,4 +21,3 @@ unassignedData = null;
 //     " | unassignedData type: " +
 //     typeof unassignedData,
 // );
-
