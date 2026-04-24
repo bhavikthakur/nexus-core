@@ -19,5 +19,3 @@ unassignedData = null;
 //     typeof unassignedData,
 // );
 
-// Using commas in console.log handles spacing and type display automatically
-console.log("Agent name: ", agentName, " | agentName type: ", typeof agentName);
