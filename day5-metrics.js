@@ -6,7 +6,6 @@ let rawTPH = Math.round(ticketsResolved / shiftHours);
 let finalQuality = Math.floor(qualityScore);
 
 let hasTickets = ticketsResolved === 120;
-console.log(`Does Agent have tickets? ${hasTickets}`);
 
 let ticketDashboard = `
 ====== TICKET DASHBOARD=======
@@ -16,4 +15,3 @@ Quality score: ${finalQuality}
 Tickets are in the queue: ${hasTickets}
 ======
 `;
-console.log(ticketDashboard);
